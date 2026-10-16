@@ -1,0 +1,15 @@
+# 環境變數
+.env
+.env.local
+
+# 快取資料夾
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# 忽略虛擬環境與套件管理工具的暫存檔
+.venv/
+venv/
+.uv/
