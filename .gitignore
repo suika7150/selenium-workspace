@@ -9,7 +9,11 @@ __pycache__/
 *.pyd
 .pytest_cache/
 
-# 忽略虛擬環境與套件管理工具的暫存檔
+# 虛擬環境與套件管理工具的暫存檔
 .venv/
 venv/
 .uv/
+
+# Allure 測試結果數據與報告
+allure-results/
+allure-report/
